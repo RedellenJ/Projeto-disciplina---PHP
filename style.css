@@ -623,5 +623,122 @@ address { font-style: normal; }
   }
 }
 
+.benefits__grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
 
+.benefit-card {
+    background-color: #f8f9fa;
+    padding: 30px 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
 
+.benefit-icon {
+    font-size: 3rem;
+    margin-bottom: 15px;
+}
+
+.gallery__grid {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.gallery__image {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery__image:hover {
+    transform: scale(1.05);
+}
+
+.testimonials__grid {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+}
+
+.testimonial-card {
+    background-color: #ffffff;
+    border-left: 5px solid #2ecc71;
+    padding: 25px;
+    width: 350px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 0 10px 10px 0;
+}
+
+.testimonial-text {
+    font-style: italic;
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.testimonial-author {
+    font-weight: 600;
+    text-align: right;
+}
+
+.gallery__grid {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gallery__image {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.gallery__image:hover {
+    transform: scale(1.05);
+}
+
+.benefits, 
+.gallery, 
+.testimonials {
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.section-header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-subtitle {
+    display: block;
+    color: #2ecc71;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 0.9rem;
+}
+
+.section-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-top: 5px;
+}

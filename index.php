@@ -43,8 +43,7 @@ $galeria = [
   'Imagem 17.jpeg',
   'Imagem 18.jpeg',
   'Imagem 19.jpeg',
-  'Imagem 20.jpeg',
-  'Imagem 21.jpeg'
+  'Imagem 20.jpeg'
 ];
 
 ?>

@@ -28,6 +28,11 @@ body {
   background-color: var(--clr-white);
 }
 
+html,
+body {
+  overflow-x: hidden;
+}
+
 ul { list-style: none; }
 a { text-decoration: none; color: inherit; }
 img { max-width: 100%; display: block; }
@@ -475,7 +480,7 @@ address { font-style: normal; }
 }
 
 .footer__map iframe {
-  width: 200%;
+  width: 100%;
   height: 260px;
   border: none;
   border-radius: 6px;
